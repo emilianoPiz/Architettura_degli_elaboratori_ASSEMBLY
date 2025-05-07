@@ -16,6 +16,6 @@ li $v0, 10                 #fine del programma
 syscall
 
 .data                      #assegnazione dati 
-base:	  .word 2    
-esponente:.word 3 
-val :     .word 1 
+base:	   .word 2    
+esponente: .word 3 
+val :      .word 1 

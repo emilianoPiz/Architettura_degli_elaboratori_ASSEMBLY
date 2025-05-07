@@ -16,6 +16,12 @@ main:
     li   $t2, 5
     div  $t0, $t2
     mflo $t0                     # Media finale in t0
+    
+    j    end
+
+end:
+li $v0, 10
+syscall
 
 .data
 primo_operando:   .word 0

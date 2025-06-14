@@ -1,3 +1,17 @@
+#############################################################################################################################
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#
+#Realizzare un programma in assembly MIPS che definisca in memoria un vettore vett1 di 10 elementi 
+#con intervallo dei valori -232v231-1 ed un vettore vett2 di 10 elementi con intervallo dei valori -28w27-1. 
+#L’algoritmo deve prendere gli elementi che sono alla stessa posizione (uguale indice) e 
+#dopo averli ordinati in modo decrescente ed elevati al quadrato hanno il quoziente multiplo di dieci.
+#Il programma deve implementare una prima sub-routine (o funzione)
+# ELEVA che ha come parametri in ingresso gli elementi dei vettori alla stessa posizione 
+#e che dopo averli ordinati per valore decrescente ed elevati al quadrato richiama al suo interno una ulteriore sub-routine
+# MULTIPLO che ha come parametri in ingresso i due elementi ordinati ed elevati e 
+#restituisce un valore di uscita che indica se il quoziente derivato dalla divisione dei due numeri è un multiplo di 10.
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#
+#############################################################################################################################
+
 .text
 #sezione macro########################################################
 .macro prologo

@@ -18,9 +18,9 @@
 
 .data
 pre_input_str: .asciiz "immetti a,b,c (<0) per trovare x1,x2 della loro equazione di secondo grado [ x1,2=(ax^2+bx+c) ]"
-a_str:.ascii "a: "
-b_str:.ascii "b: "
-c_str:.ascii "c: "
+a_str:.asciiz "a: "
+b_str:.asciiz "b: "
+c_str:.asciiz "c: "
 new_line: .asciiz "\n"
 tab: .asciiz "\t"
 condizione_2soluzioni_reali: .asciiz "DUE SOLUZIONI REALI: "

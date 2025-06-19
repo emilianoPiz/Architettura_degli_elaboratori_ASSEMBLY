@@ -4,9 +4,9 @@
 #la distanza si ottine con la radice quadrata di (x1-x2)^2+(y1-y2)^2
 
 .data
-X_UNO: .word 1
+X_UNO: .word 10
 Y_UNO: .word 40
-X_DUE: .word 1
+X_DUE: .word 10
 Y_DUE: .word 20
 
 .text
